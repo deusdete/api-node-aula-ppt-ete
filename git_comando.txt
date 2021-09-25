@@ -1,0 +1,24 @@
+# Primeiro comando para iniciar um repositório no Git
+
+git init
+
+# Verificar se o arquivo .gitignore existe se não criar chamado .gitignore
+com esse conteudo abaixo 
+
+node_modules
+
+yarn.lock
+
+# agora você deve adicionar os arquivos no controle de versão do git 
+
+git add .
+
+
+# O proximo comando que devemos fazer é commitar o trabalho que fizemos e 
+colocar uma mensagem
+
+git commit -m "Coloque uma mensagem doq ue vc fez no projeto"
+
+# Depois criar um novo repositório no GitHub e adicionar ele ao seu projeto local
+
+git remote add origin https://gitlab.com/deusdete/api-nodejs-simples.git
