@@ -22,3 +22,7 @@ git commit -m "Coloque uma mensagem doq ue vc fez no projeto"
 # Depois criar um novo repositório no GitHub e adicionar ele ao seu projeto local
 
 git remote add origin https://gitlab.com/deusdete/api-nodejs-simples.git
+
+# O proximo passo é subir essas alterações para o GitHub
+
+git push
